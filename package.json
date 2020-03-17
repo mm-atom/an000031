@@ -38,8 +38,15 @@
 		}
 	],
 	"license": "MIT",
-	"dependencies": {},
+	"dependencies": {
+		"@mmstudio/an000014": "^1.0.202003171129",
+		"@mmstudio/an000029": "^1.0.202003171711",
+		"uuid": "^7.0.2"
+	},
 	"devDependencies": {
+		"@mmstudio/config": "^1.0.202003171037",
+		"@mmstudio/global": "^1.0.202003171040",
+		"@types/uuid": "^7.0.0",
 		"@typescript-eslint/eslint-plugin": "latest",
 		"@typescript-eslint/parser": "latest",
 		"ava": "latest",
@@ -47,6 +54,7 @@
 		"eslint": "latest",
 		"eslint-config-prettier": "latest",
 		"eslint-plugin-import": "latest",
+		"log4js": "^6.1.2",
 		"typescript": "next"
 	}
 }
