@@ -1,10 +1,11 @@
 	// 用户名+设备ID登录
 	/**
-	 * ${0:变量注释}
+	 * 用户信息
 	 */
 	const r$CURRENT_SECONDS_UNIX = await(() => {
-		const p1 = $1;	// 参数注释
-		const p2 = $2;	// 参数注释
-		const p3 = $3;	// 参数注释
+		const p1 = $1;	// 用户名
+		const p2 = $2;	// 密码
+		const p3 = $3;	// 唯一标识码
+		const p4 = ${4:msg.realip};	// ip
 		return an31(p1, p2, p3);
 	})();
