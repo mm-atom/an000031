@@ -8,12 +8,14 @@
 		"clean": "del-cli ./dist/",
 		"lint": "eslint ./src/**/*.ts",
 		"compile": "tsc",
-		"build": "npm run clean && npm run lint && npm run compile"
+		"build": "npm run clean && npm run lint && npm run compile",
+		"up": "git pull git@github.com:mm-tpl/atom-nodejs.git master"
 	},
 	"repository": {
-		"type": "git",
-		"url": "https://github.com/mm-atom/an000031"
+		"type": "https+git",
+		"url": "https://github.com/mm-atom/an000031.git"
 	},
+	"homepage": "https://mm-works.github.io",
 	"main": "dist/index.js",
 	"module": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -39,14 +41,14 @@
 	],
 	"license": "MIT",
 	"dependencies": {
-		"@mmstudio/an000014": "^1.0.202003171129",
-		"@mmstudio/an000029": "^1.0.202003171711",
-		"uuid": "^7.0.2"
+		"@mmstudio/an000014": "^1.0.202004170759",
+		"@mmstudio/an000029": "^1.0.202004170819",
+		"uuid": "^7.0.3"
 	},
 	"devDependencies": {
-		"@mmstudio/config": "^1.0.202003171037",
-		"@mmstudio/global": "^1.0.202003171040",
-		"@types/uuid": "^7.0.0",
+		"@mmstudio/config": "latest",
+		"@mmstudio/global": "latest",
+		"@types/uuid": "latest",
 		"@typescript-eslint/eslint-plugin": "latest",
 		"@typescript-eslint/parser": "latest",
 		"ava": "latest",
@@ -54,7 +56,7 @@
 		"eslint": "latest",
 		"eslint-config-prettier": "latest",
 		"eslint-plugin-import": "latest",
-		"log4js": "^6.1.2",
+		"log4js": "^6.2.0",
 		"typescript": "next"
 	}
 }
