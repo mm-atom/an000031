@@ -49,6 +49,7 @@
 	},
 	"devDependencies": {
 		"@mmstudio/an000014": "latest",
+		"@mmstudio/an000016": "latest",
 		"@mmstudio/an000029": "latest",
 		"@mmstudio/config": "latest",
 		"@mmstudio/global": "latest",
